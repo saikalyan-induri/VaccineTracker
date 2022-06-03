@@ -1,0 +1,98 @@
+body{
+    /* color: blueviolet; */
+    margin: 0;
+    /* margin:0%; */
+    /* background-image: url("https://images.unsplash.com/photo-1584118624012-df056829fbd0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3589&q=80"); */
+}
+
+#heading{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    margin-bottom: 5%;
+}
+
+#main{
+    margin-top:5%;
+    /* background-color:aqua; */
+}
+
+#root{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 20%;
+}
+
+.data{
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+    /* margin-top: 1%; */
+    margin-bottom: 5%;
+    /* background-color: yellow; */
+    box-shadow: rgba(0, 0, 0, 0.23) 0px 3px 6px, rgba(0, 0, 0, 0.36) 0px 3px 6px;
+    padding: 17px 15px 17px 15px;
+
+    width:80%;
+    margin-left: 10px;
+    margin-right:10px;
+    border: 1px rgba(0, 0, 0, 0.1) solid;
+    border-radius: 1%;
+    background-color: #E6E6FA;
+    
+}
+
+.name,.address,.vaccine{
+    margin-top: 2%;
+}
+
+#searchButton{
+    display: flex;
+    justify-content:center;
+}
+
+#search{
+    width: 30%;
+    margin-right: 10px;
+    height: 30px;
+    border-color: darkorchid;
+}
+
+#submit{
+    margin-top: 3px;
+    width: 10%;
+    height: 30px;
+    background-color: mediumpurple;
+    border-color:rgba(115, 34, 122, 0.5);
+    border-radius:2px;
+    color:whitesmoke;
+}
+
+/* hr{
+    color:rgba(0, 0, 0, 0.16);
+} */
+
+#line{
+    height: 1px;
+    background-color:#555;
+    width: 80%;
+    
+}
+
+#linePar{
+    display: flex;
+    justify-content: center;
+}
+img{
+    display: inline;
+    width:20%;
+    height:20%;
+}
+
+.noCenters{
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+}
+
